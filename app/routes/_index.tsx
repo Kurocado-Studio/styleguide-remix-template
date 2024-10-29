@@ -2,6 +2,7 @@
 
 /* eslint import/no-default-export: 0 */
 import type { MetaFunction } from '@remix-run/node';
+import React from 'react';
 
 export const meta: MetaFunction = () => {
   return [
@@ -10,7 +11,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Index() {
+export default function Index(): React.ReactNode {
   return (
     <div
       style={{
