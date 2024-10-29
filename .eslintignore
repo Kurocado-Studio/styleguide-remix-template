@@ -1,8 +1,4 @@
-.codesanbox
-.devcontainer
-codesanbox
-devcontainer
-dist
-node_modules
-vitest.config.ts
-
+node_modules/
+public/
+vite.config.ts
+app/glodal.d.ts
