@@ -17,7 +17,7 @@ export default function Index() {
         fontFamily: 'system-ui, sans-serif',
         lineHeight: '1.8',
       }}
-      className={'bg-blue-500 text-white'}
+      className='bg-blue-500 text-white'
     >
       <h1>Welcome to Remix</h1>
       <ul>
