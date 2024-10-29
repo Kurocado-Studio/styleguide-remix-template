@@ -1,3 +1,6 @@
+/* eslint unicorn/filename-case: 0 */
+
+/* eslint import/no-default-export: 0 */
 import type { MetaFunction } from '@remix-run/node';
 
 export const meta: MetaFunction = () => {
