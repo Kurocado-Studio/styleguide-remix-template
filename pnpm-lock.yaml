@@ -32,12 +32,6 @@ importers:
       tailwindcss:
         specifier: ^3.3.2
         version: 3.4.14
-      vite:
-        specifier: ^5.1.0
-        version: 5.4.10(@types/node@22.8.1)
-      vite-tsconfig-paths:
-        specifier: ^4.2.1
-        version: 4.3.2(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.1))
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.0.3
@@ -81,6 +75,12 @@ importers:
       typescript:
         specifier: ^5.4.2
         version: 5.6.3
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.10(@types/node@22.8.1)
+      vite-tsconfig-paths:
+        specifier: ^4.2.1
+        version: 4.3.2(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.1))
 
 packages:
 
