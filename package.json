@@ -16,10 +16,11 @@
     "prettier-fix": "prettier --check . --write",
     "semantic-release": "semantic-release",
     "start": "remix-serve ./build/server/index.js",
-    "test": "echo \"no test specified\" && exit 0",
+    "test": "vitest run",
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@kurocado-studio/styleguide": "1.2.5",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
     "@remix-run/serve": "^2.9.2",
@@ -33,7 +34,6 @@
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
     "@flydotio/dockerfile": "^0.5.9",
-    "@kurocado-studio/styleguide": "1.2.3-alpha.3",
     "@remix-run/dev": "^2.8.1",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.18",
