@@ -35,6 +35,7 @@
     "@remix-run/serve": "^2.9.2",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.18",
+    "commitlint": "^19.6.0",
     "eslint": "^9.16.0",
     "eslint-define-config": "^2.1.0",
     "husky": "^9.0.11",
