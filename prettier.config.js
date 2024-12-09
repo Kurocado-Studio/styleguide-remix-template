@@ -7,7 +7,4 @@
  * Explore our open-source projects: {@link https://github.com/kurocado-studio}
  */
 
-module.exports = {
-  plugins: ['prettier-plugin-tailwindcss'],
-  ...require('@kurocado-studio/styleguide/prettier'),
-};
+export { prettierConfig as default } from '@kurocado-studio/styleguide';

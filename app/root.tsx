@@ -20,22 +20,9 @@ import {
 } from '@remix-run/react';
 import React from 'react';
 
-import stylesheet from '~/tailwind.css?url';
+import '~/tailwind.css';
 
 export const links: LinksFunction = () => [
-  { rel: 'stylesheet', href: stylesheet },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '32x32',
-    href: '/favicon-32x32.png',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '16x16',
-    href: '/favicon-16x16.png',
-  },
   {
     rel: 'icon',
     type: 'image/x-icon',
@@ -62,7 +49,10 @@ export function Layout({
         <Links />
         <title>Welcome to Remix</title>
       </head>
-      <body className='selection:bg-lime-200 selection:text-[#f52891cc]'>
+      <body
+        className='selection:bg-lime-200 selection:text-[#f52891cc]'
+        data-testid='root-body-test-id'
+      >
         {children}
         <ScrollRestoration />
         <Scripts />

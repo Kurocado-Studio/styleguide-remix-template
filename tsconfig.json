@@ -11,14 +11,15 @@
   ],
   "extends": "@kurocado-studio/styleguide/tsconfig/remix",
   "compilerOptions": {
-    "rootDir": "./app",
+    "target": "ES5",
+    "outDir": "./dist",
+    "rootDir": ".",
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    "moduleResolution": "Bundler",
+    "baseUrl": "./app",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./*"]
     },
-    "allowJs": true,
-    // Vite takes care of building everything, not tsc.
     "noEmit": true
   },
   "exclude": ["node_modules"]

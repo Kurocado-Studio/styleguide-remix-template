@@ -6,7 +6,4 @@
  *
  * Explore our open-source projects: {@link https://github.com/kurocado-studio}
  */
-
-module.exports = {
-  extends: ['@kurocado-studio/styleguide/commitlint'],
-};
+export { commitLintConfig as default } from '@kurocado-studio/styleguide';
