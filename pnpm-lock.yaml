@@ -43,8 +43,8 @@ importers:
         specifier: ^0.5.9
         version: 0.5.9
       '@kurocado-studio/styleguide':
-        specifier: 1.7.0
-        version: 1.7.0(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.0(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.28.1)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))
+        specifier: 1.8.0
+        version: 1.8.0(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.0(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.28.1)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))
       '@remix-run/dev':
         specifier: ^2.8.1
         version: 2.15.0(@remix-run/react@2.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.0(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))
@@ -736,8 +736,8 @@ packages:
   '@jspm/core@2.0.1':
     resolution: {integrity: sha512-Lg3PnLp0QXpxwLIAuuJboLeRaIhrgJjeuh797QADg3xz8wGLugQOS5DpsE8A6i6Adgzf+bacllkKZG3J0tGfDw==}
 
-  '@kurocado-studio/styleguide@1.7.0':
-    resolution: {integrity: sha512-BWDbotaO2JDB1w8YzVVVw4QG8Ly1z5N1tRkmkUioU6p7roB8BljQNojfvdVwrQ9tUjvoyF2MFc7Al74FmuY8kQ==}
+  '@kurocado-studio/styleguide@1.8.0':
+    resolution: {integrity: sha512-V6tqRpWLPtqrdRQzRdZsHhdWX4y0DiqNJZH26aJURfn3x1r79eT6gYAcD8t8QdDCEtaeeMXz/9SW7er9bBHrBQ==}
     engines: {node: '>=20'}
     peerDependencies:
       '@commitlint/cli': ^19.0.3
@@ -6048,7 +6048,7 @@ snapshots:
 
   '@babel/generator@7.17.7':
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.26.3
       jsesc: 2.5.2
       source-map: 0.5.7
 
@@ -6616,7 +6616,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -6639,7 +6639,7 @@ snapshots:
 
   '@jspm/core@2.0.1': {}
 
-  '@kurocado-studio/styleguide@1.7.0(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.0(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.28.1)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))':
+  '@kurocado-studio/styleguide@1.8.0(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.0(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.28.1)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/eslint-parser': 7.25.9(@babel/core@7.26.0)(eslint@9.16.0(jiti@1.21.6))
@@ -7614,11 +7614,11 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
@@ -7640,7 +7640,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -7726,12 +7726,12 @@ snapshots:
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
       '@types/send': 0.17.4
 
   '@types/stack-utils@2.0.3': {}
@@ -7740,7 +7740,7 @@ snapshots:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
       form-data: 4.0.1
 
   '@types/supertest@6.0.2':
@@ -10121,7 +10121,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.5.0
+      '@types/node': 22.10.1
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
