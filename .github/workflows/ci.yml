@@ -48,4 +48,5 @@ jobs:
     needs: release
     uses: kurocado-studio/styleguide/.github/workflows/workflow.deploy.yml@main
     secrets:
+      fly_api_token2: ${{ secrets.FLY_API_TOKEN }}
       fly_api_token: ${{ secrets.FLY_API_TOKEN }}
