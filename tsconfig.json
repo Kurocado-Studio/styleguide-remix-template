@@ -1,22 +1,26 @@
 {
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "**/.client/**/*.ts",
+    "**/.client/**/*.tsx",
+    "**/.server/**/*.ts",
+    "**/.server/**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "tailwind.config.ts",
+    "vite.config.ts"
+  ],
+  "extends": "@kurocado-studio/styleguide/tsconfig/remix",
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "isolatedModules": true,
-    "esModuleInterop": true,
+    "target": "ES5",
+    "outDir": "./dist",
+    "rootDir": ".",
     "jsx": "react-jsx",
     "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "target": "ES2022",
-    "strict": true,
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
+    "baseUrl": "./app",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./*"]
     },
-
-    // Remix takes care of building everything in `remix build`.
     "noEmit": true
-  }
+  },
+  "exclude": ["node_modules"]
 }

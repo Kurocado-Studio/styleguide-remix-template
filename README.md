@@ -1,3 +1,12 @@
+<!--
+ * Made with ❤️ and adobo by Kurocado Studio
+ * Copyright (c) 2024. All Rights Reserved.
+ *
+ * Learn more about Kurocado Studio: {@link https://www.kurocado.studio}
+ *
+ * Explore our open-source projects: {@link https://github.com/kurocado-studio}
+-->
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
@@ -30,7 +39,8 @@ Now you'll need to pick a host to deploy it to.
 
 ### DIY
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
+If you're familiar with deploying node applications, the built-in Remix app server is
+production-ready.
 
 Make sure to deploy the output of `remix build`
 
