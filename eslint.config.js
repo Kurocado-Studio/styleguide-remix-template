@@ -25,7 +25,9 @@ export default defineConfig([
         typescript: {
           project: './tsconfig.json',
         },
-        node: {},
+        node: {
+          extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        },
       },
     },
   },

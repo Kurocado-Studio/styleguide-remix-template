@@ -10,7 +10,7 @@
 /* eslint unicorn/filename-case: 0 */
 
 /* eslint import/no-default-export: 0 */
-import { LinksFunction } from '@remix-run/node';
+import type { LinksFunction } from '@remix-run/node';
 import {
   Links,
   Meta,
