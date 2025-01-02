@@ -46,7 +46,6 @@ jobs:
       fly_api_token: ${{ secrets.FLY_API_TOKEN }}
 
   release:
-    needs: deploy
     uses: kurocado-studio/styleguide/.github/workflows/workflow.release.yml@main
     secrets: inherit
     with:
