@@ -35,10 +35,10 @@ importers:
         version: 0.5.9
       '@kurocado-studio/styleguide':
         specifier: 1.10.2
-        version: 1.10.2(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.1(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.31.0)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))
+        version: 1.10.2(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.1(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.12(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.31.0)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))
+        version: 2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))
       '@remix-run/serve':
         specifier: ^2.9.2
         version: 2.15.1(typescript@5.7.2)
@@ -76,11 +76,11 @@ importers:
         specifier: ^5.4.2
         version: 5.7.2
       vite:
-        specifier: ^5.1.0
-        version: 5.4.11(@types/node@20.5.0)
+        specifier: ^5.4.12
+        version: 5.4.12(@types/node@20.5.0)
       vite-tsconfig-paths:
         specifier: ^4.2.1
-        version: 4.3.2(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))
+        version: 4.3.2(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))
       vitest:
         specifier: ^2.1.8
         version: 2.1.8(@types/node@20.5.0)(jsdom@25.0.1)
@@ -5654,8 +5654,8 @@ packages:
   undici-types@6.20.0:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
-  undici@6.21.0:
-    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
+  undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
 
   unicode-emoji-modifier-base@1.0.0:
@@ -5823,8 +5823,8 @@ packages:
       vite:
         optional: true
 
-  vite@5.4.11:
-    resolution: {integrity: sha512-c7jFQRklXua0mTzneGW9QVyxFjUgwcihC4bXEtujIo2ouWCe1Ajt/amn2PCxYnhYfd5k09JX3SB7OYWFKYqj8Q==}
+  vite@5.4.12:
+    resolution: {integrity: sha512-KwUaKB27TvWwDJr1GjjWthLMATbGEbeWYZIbGZ5qFIsgPP3vWzLu4cVooqhm5/Z2SPDUMjyPVjTztm5tYKwQxA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -6453,7 +6453,7 @@ snapshots:
   '@commitlint/types@19.5.0':
     dependencies:
       '@types/conventional-commits-parser': 5.0.1
-      chalk: 5.3.0
+      chalk: 5.4.1
 
   '@emotion/hash@0.9.2': {}
 
@@ -6717,14 +6717,14 @@ snapshots:
 
   '@jspm/core@2.0.1': {}
 
-  '@kurocado-studio/styleguide@1.10.2(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.1(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.31.0)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))':
+  '@kurocado-studio/styleguide@1.10.2(@commitlint/cli@19.6.0(@types/node@20.5.0)(typescript@5.7.2))(@commitlint/config-conventional@19.6.0)(@remix-run/serve@2.15.1(typescript@5.7.2))(@testing-library/jest-dom@6.6.3)(@testing-library/react@16.1.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.2)(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@testing-library/user-event@14.5.2(@testing-library/dom@10.4.0))(@vitejs/plugin-react@4.3.4(vite@5.4.12(@types/node@20.5.0)))(eslint@9.16.0(jiti@1.21.6))(husky@9.1.7)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.31.0)(semantic-release@23.1.1(typescript@5.7.2))(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))(vitest-axe@0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1)))(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/eslint-parser': 7.25.9(@babel/core@7.26.0)(eslint@9.16.0(jiti@1.21.6))
       '@commitlint/cli': 19.6.0(@types/node@20.5.0)(typescript@5.7.2)
       '@commitlint/config-conventional': 19.6.0
       '@eslint/js': 9.17.0
-      '@remix-run/dev': 2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))
+      '@remix-run/dev': 2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))
       '@remix-run/react': 2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
       '@rushstack/eslint-patch': 1.10.4
       '@semantic-release/changelog': 6.0.3(semantic-release@23.1.1(typescript@5.7.2))
@@ -6746,7 +6746,7 @@ snapshots:
       '@typescript-eslint/eslint-plugin': 8.19.0(@typescript-eslint/parser@8.19.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       '@typescript-eslint/parser': 8.19.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       '@typescript-eslint/utils': 8.19.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
-      '@vitejs/plugin-react': 4.3.4(vite@5.4.11(@types/node@20.5.0))
+      '@vitejs/plugin-react': 4.3.4(vite@5.4.12(@types/node@20.5.0))
       c8: 10.1.3
       dotenv: 16.4.7
       eslint: 9.16.0(jiti@1.21.6)
@@ -6777,9 +6777,9 @@ snapshots:
       typescript: 5.7.2
       typescript-eslint: 8.19.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2)
       url-join: 4.0.1
-      vite: 5.4.11(@types/node@20.5.0)
-      vite-plugin-dts: 4.4.0(@types/node@20.5.0)(rollup@4.31.0)(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))
-      vite-tsconfig-paths: 5.1.4(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))
+      vite: 5.4.12(@types/node@20.5.0)
+      vite-plugin-dts: 4.4.0(@types/node@20.5.0)(rollup@4.31.0)(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))
+      vite-tsconfig-paths: 5.1.4(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))
       vitest: 2.1.8(@types/node@20.5.0)(jsdom@25.0.1)
       vitest-axe: 0.1.0(vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1))
     transitivePeerDependencies:
@@ -7165,7 +7165,7 @@ snapshots:
       '@pnpm/network.ca-file': 1.0.2
       config-chain: 1.1.13
 
-  '@remix-run/dev@2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0))':
+  '@remix-run/dev@2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@20.5.0)(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/generator': 7.26.3
@@ -7226,7 +7226,7 @@ snapshots:
     optionalDependencies:
       '@remix-run/serve': 2.15.1(typescript@5.7.2)
       typescript: 5.7.2
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7258,7 +7258,7 @@ snapshots:
       cookie-signature: 1.2.2
       source-map-support: 0.5.21
       stream-slice: 0.1.2
-      undici: 6.21.0
+      undici: 6.21.1
     optionalDependencies:
       typescript: 5.7.2
 
@@ -7985,7 +7985,7 @@ snapshots:
       lodash: 4.17.21
       mlly: 1.7.3
       outdent: 0.8.0
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
       vite-node: 1.6.0(@types/node@20.5.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -8001,14 +8001,14 @@ snapshots:
 
   '@vanilla-extract/private@1.0.6': {}
 
-  '@vitejs/plugin-react@4.3.4(vite@5.4.11(@types/node@20.5.0))':
+  '@vitejs/plugin-react@4.3.4(vite@5.4.12(@types/node@20.5.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -8019,13 +8019,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.8(vite@5.4.11(@types/node@20.5.0))':
+  '@vitest/mocker@2.1.8(vite@5.4.12(@types/node@20.5.0))':
     dependencies:
       '@vitest/spy': 2.1.8
       estree-walker: 3.0.3
       magic-string: 0.30.14
     optionalDependencies:
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
 
   '@vitest/pretty-format@2.1.8':
     dependencies:
@@ -12476,7 +12476,7 @@ snapshots:
 
   undici-types@6.20.0: {}
 
-  undici@6.21.0: {}
+  undici@6.21.1: {}
 
   unicode-emoji-modifier-base@1.0.0: {}
 
@@ -12620,7 +12620,7 @@ snapshots:
       debug: 4.4.0
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -12638,7 +12638,7 @@ snapshots:
       debug: 4.4.0
       es-module-lexer: 1.5.4
       pathe: 1.1.2
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -12650,7 +12650,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@4.4.0(@types/node@20.5.0)(rollup@4.31.0)(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0)):
+  vite-plugin-dts@4.4.0(@types/node@20.5.0)(rollup@4.31.0)(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0)):
     dependencies:
       '@microsoft/api-extractor': 7.48.1(@types/node@20.5.0)
       '@rollup/pluginutils': 5.1.4(rollup@4.31.0)
@@ -12663,35 +12663,35 @@ snapshots:
       magic-string: 0.30.17
       typescript: 5.7.2
     optionalDependencies:
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite-tsconfig-paths@4.3.2(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0)):
+  vite-tsconfig-paths@4.3.2(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.7.2)
     optionalDependencies:
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite-tsconfig-paths@5.1.4(typescript@5.7.2)(vite@5.4.11(@types/node@20.5.0)):
+  vite-tsconfig-paths@5.1.4(typescript@5.7.2)(vite@5.4.12(@types/node@20.5.0)):
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.7.2)
     optionalDependencies:
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.11(@types/node@20.5.0):
+  vite@5.4.12(@types/node@20.5.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
@@ -12713,7 +12713,7 @@ snapshots:
   vitest@2.1.8(@types/node@20.5.0)(jsdom@25.0.1):
     dependencies:
       '@vitest/expect': 2.1.8
-      '@vitest/mocker': 2.1.8(vite@5.4.11(@types/node@20.5.0))
+      '@vitest/mocker': 2.1.8(vite@5.4.12(@types/node@20.5.0))
       '@vitest/pretty-format': 2.1.8
       '@vitest/runner': 2.1.8
       '@vitest/snapshot': 2.1.8
@@ -12729,7 +12729,7 @@ snapshots:
       tinyexec: 0.3.1
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
-      vite: 5.4.11(@types/node@20.5.0)
+      vite: 5.4.12(@types/node@20.5.0)
       vite-node: 2.1.8(@types/node@20.5.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
