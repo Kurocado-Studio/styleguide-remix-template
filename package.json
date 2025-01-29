@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "remix vite:build",
-    "commitlint": "pnpm exec commitlint --edit",
+    "commitlint": "pnpm exec commitlint --edit .git/COMMIT_EDITMSG",
     "dev": "remix vite:dev",
     "eslint-check": "eslint --max-warnings=0 . --debug",
     "eslint-fix": "eslint --max-warnings=0 . --fix",
@@ -19,6 +19,15 @@
     "test": "vitest run",
     "typecheck": "tsc"
   },
+  "lint-staged": {
+    "*": [
+      "pnpm run prettier-fix"
+    ],
+    "**/*.{ts,tsx}": [
+      "pnpm run eslint-fix",
+      "pnpm run lint"
+    ]
+  },
   "dependencies": {
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
@@ -30,7 +39,7 @@
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.5.9",
-    "@kurocado-studio/styleguide": "1.10.2",
+    "@kurocado-studio/styleguide": "1.10.3",
     "@remix-run/dev": "^2.8.1",
     "@remix-run/serve": "^2.9.2",
     "@types/react-dom": "^18.3.1",
