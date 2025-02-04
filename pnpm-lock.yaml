@@ -37,8 +37,8 @@ importers:
         specifier: ^0.5.9
         version: 0.5.9
       '@kurocado-studio/qa':
-        specifier: 1.0.0-alpha.28
-        version: 1.0.0-alpha.28(@testing-library/dom@10.4.0)(@types/debug@4.1.12)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(eslint@9.19.0(jiti@2.4.2))(jiti@2.4.2)(optionator@0.9.4)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.34.1)(vite@6.0.11(@types/node@20.5.0)(jiti@2.4.2)(yaml@2.7.0))(vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@20.5.0)(jiti@2.4.2)(jsdom@25.0.1)(yaml@2.7.0)))(yaml@2.7.0)
+        specifier: 1.0.0-alpha.29
+        version: 1.0.0-alpha.29(@testing-library/dom@10.4.0)(@types/debug@4.1.12)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(eslint@9.19.0(jiti@2.4.2))(jiti@2.4.2)(optionator@0.9.4)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.34.1)(vite@6.0.11(@types/node@20.5.0)(jiti@2.4.2)(yaml@2.7.0))(vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@20.5.0)(jiti@2.4.2)(jsdom@25.0.1)(yaml@2.7.0)))(yaml@2.7.0)
       '@kurocado-studio/styleguide':
         specifier: 2.0.0-alpha.15
         version: 2.0.0-alpha.15(@babel/core@7.26.7)(@commitlint/cli@19.7.1(@types/node@20.5.0)(typescript@5.7.3))(@commitlint/config-conventional@19.6.0)(@remix-run/react@2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3))(@remix-run/serve@2.15.3(typescript@5.7.3))(eslint@9.19.0(jiti@2.4.2))(husky@9.1.7)(prettier@3.4.2)(rollup@4.34.1)(semantic-release@23.1.1(typescript@5.7.3))(typescript@5.7.3)(vite@6.0.11(@types/node@20.5.0)(jiti@2.4.2)(yaml@2.7.0))(vitest@3.0.5(@types/debug@4.1.12)(@types/node@20.5.0)(jiti@2.4.2)(jsdom@25.0.1)(yaml@2.7.0))
@@ -902,8 +902,8 @@ packages:
   '@jspm/core@2.0.1':
     resolution: {integrity: sha512-Lg3PnLp0QXpxwLIAuuJboLeRaIhrgJjeuh797QADg3xz8wGLugQOS5DpsE8A6i6Adgzf+bacllkKZG3J0tGfDw==}
 
-  '@kurocado-studio/qa@1.0.0-alpha.28':
-    resolution: {integrity: sha512-T9n8ojjPqYuFIkX2dmAq0pU9tvMvB5p8SPjTN9B7PWycA5fKjwn3wdDekyXEqbXr/jbOFLLjuc9HMcduHyoKmw==}
+  '@kurocado-studio/qa@1.0.0-alpha.29':
+    resolution: {integrity: sha512-9wyxC1PfR0gaT5oEyFw7eTOGPsmx+2VDmgwJOdpe4pGHAVwuhKXiNf4VWn1rFW1E4Ch4X63SAIzQ+mnnyby5mg==}
     engines: {node: '>=20'}
     peerDependencies:
       vitest-axe: ^0.1.0
@@ -1656,6 +1656,9 @@ packages:
 
   '@types/node@22.13.0':
     resolution: {integrity: sha512-ClIbNe36lawluuvq3+YYhnIN2CELi+6q8NpnM7PYp4hBn/TatfboPgVSm2rwKRfnV2M+Ty9GWDFI64KEe+kysA==}
+
+  '@types/node@22.13.1':
+    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -7044,7 +7047,7 @@ snapshots:
 
   '@jspm/core@2.0.1': {}
 
-  '@kurocado-studio/qa@1.0.0-alpha.28(@testing-library/dom@10.4.0)(@types/debug@4.1.12)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(eslint@9.19.0(jiti@2.4.2))(jiti@2.4.2)(optionator@0.9.4)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.34.1)(vite@6.0.11(@types/node@20.5.0)(jiti@2.4.2)(yaml@2.7.0))(vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@20.5.0)(jiti@2.4.2)(jsdom@25.0.1)(yaml@2.7.0)))(yaml@2.7.0)':
+  '@kurocado-studio/qa@1.0.0-alpha.29(@testing-library/dom@10.4.0)(@types/debug@4.1.12)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(eslint@9.19.0(jiti@2.4.2))(jiti@2.4.2)(optionator@0.9.4)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.34.1)(vite@6.0.11(@types/node@20.5.0)(jiti@2.4.2)(yaml@2.7.0))(vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@20.5.0)(jiti@2.4.2)(jsdom@25.0.1)(yaml@2.7.0)))(yaml@2.7.0)':
     dependencies:
       '@eslint/js': 9.19.0
       '@remix-run/node': 2.15.3(typescript@5.7.3)
@@ -8179,6 +8182,10 @@ snapshots:
   '@types/node@20.5.0': {}
 
   '@types/node@22.13.0':
+    dependencies:
+      undici-types: 6.20.0
+
+  '@types/node@22.13.1':
     dependencies:
       undici-types: 6.20.0
 
@@ -9829,7 +9836,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 22.13.0
+      '@types/node': 22.13.1
       require-like: 0.1.2
 
   event-target-shim@5.0.1: {}
