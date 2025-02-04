@@ -1,7 +1,7 @@
 node_modules
-
-/.cache
-/build
-/.idea
+coverage
+.cache
+build
+.idea
 /public/build
 .env

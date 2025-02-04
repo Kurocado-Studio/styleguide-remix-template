@@ -1,26 +1,27 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": [
+    "@kurocado-studio/qa/remix/tsconfig.qa",
+    "@kurocado-studio/styleguide/remix/tsconfig"
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "jsx": "react"
+  },
   "include": [
-    "**/.client/**/*.ts",
-    "**/.client/**/*.tsx",
-    "**/.server/**/*.ts",
-    "**/.server/**/*.tsx",
     "app/**/*.ts",
     "app/**/*.tsx",
+    "setup.remix.ts",
     "tailwind.config.ts",
-    "vite.config.ts"
+    "test/**/*.test.ts",
+    "test/**/*.test.tsx",
+    "vite.config.ts",
+    "vitest.config.ts"
   ],
-  "extends": "@kurocado-studio/styleguide/tsconfig/remix",
-  "compilerOptions": {
-    "target": "ES5",
-    "outDir": "./dist",
-    "rootDir": ".",
-    "jsx": "react-jsx",
-    "moduleResolution": "Bundler",
-    "baseUrl": "./app",
-    "paths": {
-      "~/*": ["./*"]
-    },
-    "noEmit": true
-  },
   "exclude": ["node_modules"]
 }

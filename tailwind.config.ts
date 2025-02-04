@@ -1,3 +1,4 @@
+/* eslint import/no-default-export: 0 */
 /**
  * Made with ❤️ and adobo by Kurocado Studio
  * Copyright (c) 2024. All Rights Reserved.
@@ -6,8 +7,6 @@
  *
  * Explore our open-source projects: {@link https://github.com/kurocado-studio}
  */
-
-/* eslint import/no-default-export: 0 */
 import { type Config } from 'tailwindcss';
 
 export default {
