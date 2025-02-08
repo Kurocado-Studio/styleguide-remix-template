@@ -11,9 +11,4 @@
 import { viteWebConfig } from '@kurocado-studio/styleguide';
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-  ...viteWebConfig,
-  server: {
-    allowedHosts: ['.csb.app'],
-  },
-});
+export default defineConfig(viteWebConfig);
