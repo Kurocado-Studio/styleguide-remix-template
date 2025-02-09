@@ -18,9 +18,10 @@ import {
 } from '@remix-run/react';
 import React from 'react';
 
-import './tailwind.css';
+import tailwind from './tailwind.css';
 
 export const links: LinksFunction = () => [
+  { rel: 'stylesheet', href: tailwind },
   {
     rel: 'icon',
     type: 'image/x-icon',
@@ -45,6 +46,7 @@ export function Layout({
           href='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
         />
         <Links />
+        <script src='https://cdn.tailwindcss.com' />
         <title>Welcome to Remix</title>
       </head>
       <body
