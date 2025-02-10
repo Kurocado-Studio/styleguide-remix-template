@@ -1,3 +1,7 @@
 {
-  "template": "node"
+  "hardReloadOnChange": true,
+  "template": "remix",
+  "container": {
+    "port": 5173
+  }
 }
