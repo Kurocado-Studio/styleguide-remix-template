@@ -18,6 +18,7 @@ import {
 } from '@remix-run/react';
 import React from 'react';
 
+// @see https://remix.run/docs/en/main/styling/tailwind
 import styles from './tailwind.css?url';
 
 export const links: LinksFunction = () => [

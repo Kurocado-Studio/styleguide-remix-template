@@ -11,4 +11,10 @@
 import { viteWebConfig } from '@kurocado-studio/styleguide';
 import { defineConfig } from 'vite';
 
-export default defineConfig(viteWebConfig);
+export default defineConfig({
+  ...viteWebConfig,
+  server: {
+    // mostly to allow CodeSandbox URLs
+    allowedHosts: true,
+  },
+});
