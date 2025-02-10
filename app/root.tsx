@@ -18,9 +18,10 @@ import {
 } from '@remix-run/react';
 import React from 'react';
 
-import './tailwind.css';
+import styles from './tailwind.css?url';
 
 export const links: LinksFunction = () => [
+  { rel: 'stylesheet', href: styles },
   {
     rel: 'icon',
     type: 'image/x-icon',
