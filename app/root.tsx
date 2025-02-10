@@ -40,13 +40,8 @@ export function Layout({
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <Meta />
-        <link
-          rel='stylesheet'
-          type='text/css'
-          href='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
-        />
         <Links />
-        <title>Welcome to Remix</title>
+        <title>Kurocado Studio Remix starter template</title>
       </head>
       <body
         className='selection:bg-lime-200 selection:text-[#f52891cc]'
