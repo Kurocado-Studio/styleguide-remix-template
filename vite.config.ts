@@ -16,4 +16,9 @@ export default defineConfig({
   server: {
     allowedHosts: true,
   },
+  css: {
+    modules: {
+      scopeBehaviour: 'local',
+    },
+  },
 });

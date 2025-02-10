@@ -18,6 +18,7 @@ import {
 } from '@remix-run/react';
 import React from 'react';
 
+// @ts-expect-error module needed to interpolate Tailwind on CodeSandbox
 import tailwind from './tailwind.css';
 
 export const links: LinksFunction = () => [
