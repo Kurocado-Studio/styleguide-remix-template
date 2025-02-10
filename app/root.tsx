@@ -42,7 +42,7 @@ export function Layout({
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <Meta />
         <Links />
-        <title>Kurocado Studio Remix starter template</title>
+        <title>Kurocado Studio Remix starter boilerplate</title>
       </head>
       <body
         className='selection:bg-lime-200 selection:text-[#f52891cc]'
