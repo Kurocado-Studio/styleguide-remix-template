@@ -5,6 +5,7 @@
     "@kurocado-studio/styleguide/remix/tsconfig"
   ],
   "compilerOptions": {
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "rootDir": ".",
     "baseUrl": ".",
