@@ -1,48 +1,59 @@
-<!--
- * Made with ❤️ and adobo by Kurocado Studio
- * Copyright (c) 2024. All Rights Reserved.
- *
- * Learn more about Kurocado Studio: {@link https://www.kurocado.studio}
- *
- * Explore our open-source projects: {@link https://github.com/kurocado-studio}
--->
+# Kurocado Studio Tailwind Remix Template
 
-# Welcome to Remix!
+[![Contributor Covenant](https://img.shields.io/badge/Contributor Covenant-2.1-4baaaa.svg)](https://kurocado.youtrack.cloud/articles/PRO-A-10/Contributing)
 
-- [Remix Docs](https://remix.run/docs)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/Kurocado-Studio/styleguide-remix-template)
 
-## Development
+This template is already configured with the
+**[Kurocado Studio Engineering Styleguide](https://kurocado.youtrack.cloud/articles/STY-A-1/Project-Charter)**
+& is designed to help you go from "0 to Hello World" in five minutes or less—delivering both speed
+and quality without compromise.
 
-From your terminal:
+## Key Features
 
-```sh
-npm run dev
-```
+- [Linting](https://kurocado.youtrack.cloud/articles/PLA-A-5/Lint) pipeline using
+  - [Prettier](https://prettier.io)
+  - [ESLint](https://eslint.org)
+  - [CommitLint](https://commitlint.js.org)
+- [Documentation ](https://kurocado.youtrack.cloud/articles/PLA-A-7/Document)pipeline using
+  [Writerside Jetbrains Plugin](https://plugins.jetbrains.com/plugin/20158-writerside)
+- [Release ](https://kurocado.youtrack.cloud/articles/PLA-A-3/Release)pipeline using
+  [Semantic Release](https://semantic-release.gitbook.io/semantic-release)
+- [Deployment ](https://kurocado.youtrack.cloud/articles/PLA-A-4/Deploy)pipeline through
+  [Fly.io](https://fly.io/)
+- [Testing ](https://kurocado.youtrack.cloud/articles/PLA-A-6/Test)pipeline using
+  [Vitest](https://vitest.dev)
 
-This starts your app in development mode, rebuilding assets on file changes.
+## Quick Start—"Hello World" in 5 Minutes or Less
 
-## Deployment
+1. **Clone the Repository** If you dont have one, open an account with Fly.io
 
-First, build your app for production:
+2. **Clone the Repository** Clone this repository to your local machine:
 
-```sh
-npm run build
-```
+   ```bash
+   git clone https://github.com/kurocado-studio/typescript-template.git
+   cd typescript-template
+   ```
 
-Then run the app in production mode:
+3. **Install Dependencies** Install the project dependencies with `pnpm` (you can install pnpm if
+   you don't have it already: [pnpm](https://pnpm.io/)):
 
-```sh
-npm start
-```
+   ```bash
+   pnpm install
+   ```
 
-Now you'll need to pick a host to deploy it to.
+4. **Run Linting** Ensure your code follows Kurocado's coding standards by running the linting
+   process:
 
-### DIY
+   ```bash
+   pnpm lint
+   ```
 
-If you're familiar with deploying node applications, the built-in Remix app server is
-production-ready.
+   For more information on Linting, see the
+   [Kurocado Linting Guide](https://kurocado.youtrack.cloud/articles/PLA-A-5/Lint).
 
-Make sure to deploy the output of `remix build`
+## 🎉 You're Ready to Go!
 
-- `build/`
-- `public/build/`
+You've successfully set up your TypeScript project and can now take advantage of all the automation
+and tooling that Kurocado Studio provides. If you have any questions or need support, feel free to
+check out our documentation or reach out to the Kurocado Studio team.
