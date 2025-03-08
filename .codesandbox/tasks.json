@@ -4,6 +4,18 @@
     {
       "command": "pnpm install",
       "name": "Install Dependencies"
+    },
+    {
+      "name": "Typecheck",
+      "command": "tsc"
+    },
+    {
+      "name": "Test",
+      "command": "vitest run --coverage"
+    },
+    {
+      "name": "Build",
+      "command": "remix vite:build"
     }
   ],
   "tasks": {
@@ -54,12 +66,5 @@
       "name": "Semantic Release",
       "command": "semantic-release"
     }
-  },
-  "runAtStart": [
-    "Install Dependencies",
-    "Typecheck",
-    "Test",
-    "Build",
-    "Dev"
-  ]
+  }
 }
