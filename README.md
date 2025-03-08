@@ -1,6 +1,6 @@
 # Kurocado Studio Tailwind Remix Template
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor Covenant-2.1-4baaaa.svg)](https://kurocado.youtrack.cloud/articles/PRO-A-10/Contributing)
+---
 
 [![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/Kurocado-Studio/styleguide-remix-template)
 
