@@ -27,6 +27,12 @@ export function Layout({
 }: {
   children: React.ReactNode;
 }): React.ReactNode {
+  const [isHydrated, setIsHydrated] = React.useState<boolean>(false);
+
+  React.useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
   return (
     <html lang='en'>
       <head>
@@ -37,7 +43,9 @@ export function Layout({
         <title>Kurocado Studio Remix starter boilerplate</title>
       </head>
       <body
-        className='selection:bg-lime-200 selection:text-[#f52891cc] opacity-100 transition-opacity duration-300'
+        className={`selection:bg-lime-200 selection:text-[#f52891cc] ${
+          isHydrated ? 'opacity-100' : 'opacity-0'
+        }  opacity-100 transition-opacity duration-300`}
         data-testid='root-body-test-id'
         suppressHydrationWarning
       >
