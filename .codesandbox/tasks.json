@@ -1,37 +1,61 @@
 {
-  // These tasks will run in order when initializing your CodeSandbox project.
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
   "setupTasks": [
     {
       "command": "pnpm install",
       "name": "Install Dependencies"
     }
   ],
-
-  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "build": {
-      "name": "build",
-      "command": "pnpm run build"
+    "Build": {
+      "name": "Build",
+      "command": "remix vite:build"
     },
-    "dev": {
-      "name": "dev",
-      "command": "pnpm run dev",
-      "runAtStart": true,
+    "Commitlint": {
+      "name": "Commitlint",
+      "command": "pnpm exec commitlint --edit .git/COMMIT_EDITMSG"
+    },
+    "Dev": {
+      "name": "Dev",
+      "command": "remix vite:dev",
       "preview": {
         "port": 3000
       }
     },
-    "start": {
-      "name": "start",
-      "command": "pnpm run start"
+    "Eslint Fix": {
+      "name": "Eslint Fix",
+      "command": "eslint --max-warnings=0 . --fix --no-warn-ignored"
     },
-    "typecheck": {
-      "name": "typecheck",
-      "command": "pnpm run typecheck"
+    "Lint": {
+      "name": "Lint",
+      "command": "eslint --max-warnings=0 . --no-warn-ignored"
     },
-    "install": {
-      "name": "install dependencies",
-      "command": "pnpm install"
+    "Prettier Check": {
+      "name": "Prettier Check",
+      "command": "prettier --check ."
+    },
+    "Prettier Fix": {
+      "name": "Prettier Fix",
+      "command": "prettier --check . --write"
+    },
+    "Start": {
+      "name": "Start",
+      "command": "remix-serve ./build/server/index.js"
+    },
+    "Test": {
+      "name": "Test",
+      "command": "vitest run --coverage"
+    },
+    "Typecheck": {
+      "name": "Typecheck",
+      "command": "tsc"
     }
-  }
+  },
+  "runAtStart": [
+    "Install Dependencies",
+    "Typecheck",
+    "Build",
+    "Dev",
+    "Test"
+  ]
 }
