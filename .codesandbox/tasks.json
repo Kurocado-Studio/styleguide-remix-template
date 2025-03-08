@@ -58,8 +58,8 @@
   "runAtStart": [
     "Install Dependencies",
     "Typecheck",
+    "Test",
     "Build",
-    "Dev",
-    "Test"
+    "Dev"
   ]
 }
