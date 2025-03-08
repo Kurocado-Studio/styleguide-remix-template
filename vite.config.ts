@@ -17,4 +17,7 @@ export default defineConfig({
     // mostly to allow CodeSandbox URLs
     allowedHosts: true,
   },
+  optimizeDeps: {
+    include: ['@remix-run/react'],
+  },
 });
