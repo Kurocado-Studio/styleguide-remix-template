@@ -25,51 +25,48 @@ and quality without compromise.
 - [Deployment](https://kurocado.youtrack.cloud/articles/PLA-A-4/Deploy) pipeline using
   [Fly.io](https://fly.io/)
 
-## Quick Start—"Hello World" in 5 Minutes or Less
-
 ### Prerequisites
 
 - If you don't have one, open an account with [Fly.io](https://fly.io/)
 - The CLI of Fly.io, `flyctl.` See the [installation guide](https://fly.io/docs/flyctl/install/)
 
-1. **Clone the Repository**
+## Quick Start—"Hello World" in 5 Minutes or Less
 
-   - Through [CodeSandbox](https://codesandbox.io/)
-     - Open the repo on
-       [CodeSandbox](https://codesandbox.io/p/sandbox/github/Kurocado-Studio/styleguide-remix-template)
-     - name your application from `styleguide-remix-template` to your application name
-       - on `package.json,`
-       - on `fly.toml`
-   - sdsdsd
-     - [GitHub](https://github.com/new?template_name=styleguide-remix-template&template_owner=Kurocado-Studio)
-   - dfdfdfdf
+1. **Clone the repository**
 
-2. **Clone the Repository** Clone this repository to your local machine:
+   - Clone the Repository using our
+     [GitHub template](https://github.com/new?template_name=styleguide-remix-template&template_owner=Kurocado-Studio).
+     Note that GitHub will clone the template using `Initial commit,` the initial build will fail on
+     the [Linting](https://kurocado.youtrack.cloud/articles/PLA-A-5/Lint) pipeline due to
+     `Initial commit` going against [conventional commits](https://conventionalcommits.org/)
+     enforced by
+     [our CommitLint config](https://kurocado.youtrack.cloud/articles/STY-A-12/CommitLint)
+   - Install dependencies. We use `pnpm,` you can install pnpm if you don't have it already
+     [here](https://pnpm.io/)
 
-   ```bash
-   git clone https://github.com/kurocado-studio/typescript-template.git
-   cd typescript-template
-   ```
+2. **While on the `main` branch, rename the repository**
+   - Change the `styleguide-remix-template` to the application's name
+     - on [package.json](./package.json)
+     - on [fly.toml](./fly.toml)
+3. **Commit changes**
 
-3. **Install Dependencies** Install the project dependencies with `pnpm` (you can install pnpm if
-   you don't have it already: [pnpm](https://pnpm.io/)):
+   - Commit changes following [conventional commits](https://conventionalcommits.org/)
+   - Amend the `Initial commit` message via
+     [git commit --amend](https://git-scm.com/book/id/v2/Git-Tools-Rewriting-History)
 
-   ```bash
-   pnpm install
-   ```
+4. **Launch your application**
 
-4. **Run Linting** Ensure your code follows Kurocado's coding standards by running the linting
-   process:
+   - Run `fly launch` from inside your project source directory to configure the new application.
 
-   ```bash
-   pnpm lint
-   ```
+5. Push your changes
+   - 🎉 You're Ready to Go! You've successfully set up your TypeScript project and can now take
+     advantage of all the automation and tooling that Kurocado Studio provides. If you have any
+     questions or need support, feel free to check out our documentation or reach out to the
+     Kurocado Studio team.
 
-   For more information on Linting, see the
-   [Kurocado Linting Guide](https://kurocado.youtrack.cloud/articles/PLA-A-5/Lint).
+## What's next?
 
-## 🎉 You're Ready to Go!
-
-You've successfully set up your TypeScript project and can now take advantage of all the automation
-and tooling that Kurocado Studio provides. If you have any questions or need support, feel free to
-check out our documentation or reach out to the Kurocado Studio team.
+- Keep an eye out for our [Auth0 SDK](https://github.com/Kurocado-Studio/iam), for more information,
+  see our
+  [Identity and Access Management page](https://kurocado.youtrack.cloud/articles/PLA-A-15/Identity-and-Access-Management),
+  it will integrate your app in five minutes or less with [Auth0 by Okta](https://auth0.com/)
