@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@remix-run/node':
-        specifier: ^2.15.3
-        version: 2.15.3(typescript@5.7.3)
+        specifier: ^2.16.0
+        version: 2.16.0(typescript@5.7.3)
       '@remix-run/react':
         specifier: ^2.15.3
         version: 2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
@@ -7300,7 +7300,7 @@ snapshots:
   '@kurocado-studio/qa@1.1.1(@swc/core@1.11.8)(@testing-library/dom@10.4.0)(@types/debug@4.1.12)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(eslint@9.22.0(jiti@2.4.2))(jiti@2.4.2)(optionator@0.9.4)(prettier@3.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.34.1)(vite@6.0.11(@types/node@22.13.10)(jiti@2.4.2)(yaml@2.7.0))(vitest-axe@0.1.0(vitest@3.0.5(@types/debug@4.1.12)(@types/node@22.13.10)(jiti@2.4.2)(jsdom@25.0.1)(yaml@2.7.0)))(yaml@2.7.0)':
     dependencies:
       '@eslint/js': 9.20.0
-      '@remix-run/node': 2.15.3(typescript@5.7.3)
+      '@remix-run/node': 2.16.0(typescript@5.7.3)
       '@remix-run/testing': 2.15.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@testing-library/jest-dom': 6.6.3
       '@testing-library/react': 16.2.0(@testing-library/dom@10.4.0)(@types/react-dom@18.3.5(@types/react@18.3.18))(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
