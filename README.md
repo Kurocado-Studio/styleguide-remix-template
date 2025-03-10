@@ -85,19 +85,22 @@ Use the [Documentation](https://kurocado.youtrack.cloud/articles/PLA-A-7/Documen
   - Under **Build and deployment**, select **GitHub Actions** as the source.
 - Add the workflow to the main `ci.yaml` file, here is an example:
 
-  - ```yaml
-
-    ```
-
+  ```yaml
   # rest of config
 
-  permissions: contents: write pages: write id-token: write jobs: # other jobs placeholder document:
-  uses: kurocado-studio/dev-ops/.github/workflows/workflow.document.yml@main secrets: inherit
+  permissions:
+  contents: write
+  pages: write
+  id-token: write
 
-      # other jobs placeholder
+  jobs:
+    # other jobs placeholder
 
-  ```
+    document:
+      uses: kurocado-studio/dev-ops/.github/workflows/workflow.document.yml@main
+      secrets: inherit
 
+    # other jobs placeholder
   ```
 
 - This will enable the [Documentation](https://kurocado.youtrack.cloud/articles/PLA-A-7/Document)
