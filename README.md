@@ -3,9 +3,9 @@
 [![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/Kurocado-Studio/styleguide-remix-template)
 
 This template is already configured with the
-\*\*[Kurocado Studio Engineering Styleguide](https://kurocado.youtrack.cloud/articles/STY-A-1/Project-Charter)
-\*\*& is designed to help you go from "0 to Hello World" in five minutes or less—delivering both
-speed and quality without compromise.
+[Kurocado Studio Engineering Styleguide](https://kurocado.youtrack.cloud/articles/STY-A-1/Project-Charter)
+& is designed to help you go from "0 to Hello World" in five minutes or less—delivering both speed
+and quality without compromise.
 
 ## Key Features
 
