@@ -19,7 +19,7 @@ Before setting up the project, ensure you have the following tools installed:
 
 ## Have a JetBrains IDE?
 
-Use the [Documentation](https://kurocado.youtrack.cloud/articles/PLA-A-7/Document) pipeline via
+Use the [Documentation](https://kurocado-studio.github.io/dev-ops/document.html) pipeline via
 [GitHub Pages](https://pages.github.com) using
 [Writerside Jetbrains Plugin](https://plugins.jetbrains.com/plugin/20158-writerside)
 
