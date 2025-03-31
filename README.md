@@ -1,6 +1,6 @@
 # Kurocado Studio Tailwind Remix Template
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/Kurocado-Studio/styleguide-remix-template)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Kurocado-Studio/styleguide-remix-template)
 
 This template is already configured with the
 [engineering styleguide](https://kurocado-studio.github.io/styleguide) & is designed to help you go
