@@ -43,9 +43,11 @@ export function Layout({
         <title>Kurocado Studio Remix starter boilerplate</title>
       </head>
       <body
-        className={`selection:bg-lime-200 selection:text-[#f52891cc] ${
-          isHydrated ? 'opacity-100' : 'opacity-0'
-        }  transition-opacity duration-300`}
+        style={{
+          opacity: isHydrated ? 1 : 0,
+          transition: 'opacity 300ms',
+        }}
+        className='selection:bg-lime-200 selection:text-[#f52891cc] transition-opacity duration-300'
         data-testid='root-body-test-id'
         suppressHydrationWarning
       >
