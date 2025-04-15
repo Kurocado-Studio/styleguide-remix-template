@@ -21,7 +21,7 @@ describe('Welcome component', () => {
 
     expect(linkElement).toHaveAttribute(
       'href',
-      'https://kurocado.youtrack.cloud/articles/STY-A-3/Overview',
+      'https://kurocado-studio.github.io/platform/case-study.html',
     );
   });
 
